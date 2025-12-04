@@ -96,12 +96,3 @@ svg:where(.iconify) {
 .tippy-box>.tippy-svg-arrow {
     fill: var(--vp-c-bg-elv);
 }
-
-.VPNavBar a.title::before {
-  content: "🫐";
-  font-size: 1.4em;
-  margin-right: 0.25em;
-  display: inline-block;
-  vertical-align: middle;
-}
-

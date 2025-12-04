@@ -7,7 +7,7 @@ hero:
   text: "复旦冒险指南"
   tagline: "信息资源导航网站"
   image:
-    src: "/blueberry.svg"
+    src: "/blueberries_color.svg"
     alt: "FDUGuideBook"
   actions:
     - theme: brand
