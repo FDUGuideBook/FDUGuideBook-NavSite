@@ -16,6 +16,10 @@ courseLinks:
     link: https://github.com/Snivallus/FDU-Course-Notes-2024-2025
     icon: https://fduguidebook.com/icons/Github-Dark.svg
     desc: from Snivallus
+  - text: 香蕉空间
+    link: https://www.bananaspace.org/wiki/%E7%94%A8%E6%88%B7:Solution
+    icon: https://images.weserv.nl/?url=www.bananaspace.org/favicon.ico
+    desc: 中文数学社区
 guideLinks:
   - text: FDU CS自学指南
     link: https://fdu-open-exam.gitbook.io/csdiy
@@ -25,15 +29,19 @@ guideLinks:
     link: https://cs101.fducslg.com/
     icon: https://cs101.fducslg.com/assets/fducslg.png
     desc: 复旦大学计算机入门指南
-  - text: 香蕉空间
-    link: https://www.bananaspace.org/wiki/
-    icon: https://images.weserv.nl/?url=www.bananaspace.org/favicon.ico
-    desc: 中文数学社区
+  - text: PCS服务队
+    link: https://fdupcs.top/
+    icon: https://fdupcs.top/assets/logo.png
+    desc: 复旦计算机类课程自学指南
 webLinks:
   - text: Z-library
     link: https://z-library.sk/
     icon: https://fduguidebook.com/icons/zlibrary.svg
     desc: 世界上最大的电子图书馆
+  - text: Anna's Archive
+    link: https://annas-archive.org/
+    icon: https://fduguidebook.com/icons/annas-archive.ico
+    desc: 人类历史上最大的开源图书馆
 ---
 
 <script setup lang="ts">
