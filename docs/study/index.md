@@ -8,6 +8,14 @@ courseLinks:
     link: https://same-smile-119.notion.site/FDU-82b7f0265fc743f7a9bbf32293495b52
     icon: https://raw.githubusercontent.com/googlefonts/noto-emoji/main/png/512/emoji_u1f4dd.png
     desc: 复旦课程资料开放平台
+  - text: Awesome-Fudan
+    link: https://github.com/jeekzhang/Awesome-Fudan
+    icon: https://github.com/fluidicon.png
+    desc: 复旦课程相关代码仓库
+  - text: 大数据笔记分享
+    link: https://github.com/Snivallus/FDU-Course-Notes-2024-2025
+    icon: https://github.com/fluidicon.png
+    desc: from Snivallus
 guideLinks:
   - text: FDU CS自学指南
     link: https://fdu-open-exam.gitbook.io/csdiy
@@ -21,6 +29,11 @@ guideLinks:
     link: https://www.bananaspace.org/wiki/
     icon: https://images.weserv.nl/?url=www.bananaspace.org/favicon.ico
     desc: 中文数学社区
+webLinks:
+  - text: Z-library
+    link: https://z-library.sk/
+    icon: https://z-library.sk/favicon.svg
+    desc: 世界上最大的电子图书馆
 ---
 
 <script setup lang="ts">
@@ -33,6 +46,10 @@ import LinkList from "/.vitepress/components/unique/LinkList.vue";
 
 <LinkList :links="$frontmatter.courseLinks" />
 
-## 学习网站
+## 学习指南
 
 <LinkList :links="$frontmatter.guideLinks" />
+
+## 网络资源
+
+<LinkList :links="$frontmatter.webLinks" />
